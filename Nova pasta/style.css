@@ -10,7 +10,7 @@
         width: 15%;
         box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
         list-style: none;
-        height: 500vh;
+        height: 105em;
         float: left;
         background-color: #fff;
         
@@ -123,20 +123,21 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+      
     }
     #Superior h3{
+        margin: 0 3%;
         font-family: Roboto;
         font-style: normal;
         font-weight: bolder;
         font-size: 20px;
         line-height: 25px;
-        width: 40em;
         letter-spacing: 0.05em;
         color: #ED7839;
+        width: max-content;
     }
     .botoes{
-        width: 20%;
-        margin-right: 19vh;
+        margin-right: 5%;
         margin-bottom: 2px;
       
     }
@@ -174,10 +175,10 @@
     #inferior{
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+   
     }
     #Layer1 {
-        width: 80%;
+        width: 70%;
         height: 75%;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
         overflow: auto;
@@ -213,12 +214,16 @@
         display: flex;
         color: #4E4E4E;
         height: 2em;
-        width: 80%;
+        width: 70%;
         margin-bottom: 0;
         background-color: #FDF1EB;
         justify-content: center;
         align-items: center;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    }
+    #inferior iframe{
+        margin-right: 15%;
+        margin: auto 3%;
     }
     #resumo {
         border-width: 1px;
@@ -227,7 +232,8 @@
         box-sizing: border-box;
         border-radius: 3px;
         width: 1058px;
-       
+        margin-left: 18%;
+        margin-top: 2%;
         
     }
     #resumo h3 {
@@ -247,6 +253,7 @@
         line-height: 23px;
         letter-spacing: 0.02em;
         color: #5C5C5C;
+        padding: 1%;
     }
     .btnLeiaMais {
         border-bottom: none;
@@ -279,6 +286,9 @@
         box-sizing: border-box;
         border-radius: 3px;
         width: 1058px;
+        height: 32em;
+        margin-left: 18%;
+        margin-top: 2%;
        
     }
     .discussoes h3 {
@@ -351,4 +361,842 @@
         line-height: 17px;
         width: 40em;
     }
+
+ #meuAssunto{
+    width: 60em;
+    margin-left: 4%;
+    
+       
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    #meuNome{
+        width: 60em;
+        margin-left: 4%;
+        
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    #meuConteudo{
+        width: 60em;
+        margin-left: 4%;    
+        height: 10em;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    .textoForm{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+
+text-align: center;
+
+color: #5C5C5C;
+    }
+    
+     .titleForm{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 2%;
+        margin-left: 4%;
+        color: #ED7839;
+
+    }
+    #postagemExtra{
+        display: none;
+       
+    }
+    #postagemExtra{
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        margin-top: 5em;
+        Width :
+1028px;
+Height :
+200px;
+       
+    }
+
+    .postagem{
+
+       margin: auto 1%;
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        margin-top: 5em;
+        Width :
+1028px;
+Height :
+200px;
+padding: 1.5%;
+
+    }
+    
+
+
+    .postagem h3{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #ED7839;
+background-color: #fff;
+    }
+    .postagem2 h3{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #ED7839;
+background-color: #fff;
+    }
+    .postagem h5{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+ 
+        
+        
+        color: #5C5C5C;
+    }
+    .postagem2 h5{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+ 
+        
+        
+        color: #5C5C5C;
+    }
+    .postagem p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #4D4D4D;
+    }
+
+    .postagem2 p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #4D4D4D;
+    }
+
+    #botao{
+        background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+        border-radius: 0px 0px 4px 0px;
+        border: none;
+        width: 5em;
+        margin-left: 87.5%;
+
+    }
+
+    #like{
+        width: 2.3em;
+        height: 2em;
+        background: #ED7839;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+border-radius: 2px;
+border: none;
+    }
+    #like img{
+        width: 1em;
+        height: 1em;
+       
+    }
+
+    #demo{
+        font-family: Segoe UI;
+font-style: normal;
+font-weight: 350;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #757575;
+    }
+    .curtidas{
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #resposta{
+        border: none;
+        background-color: white;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #757575;
+    }
+    .iconeVertical{
+        width: 2em;
+    }
+
+    #respostas{
+        display: none;
+    }
+    
+    #respostas div{
+        height: 60%;
+        margin-top: 5%;
+        padding: 1%;
+    
+        background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+    }
+  
+    #respostas p{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4D4D4D;
+    }
+
+    
+
+}
+
+
+
+@media(max-width:900px){
+
+
+    #Menu {
+        width: 15%;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+        list-style: none;
+        height: 105em;
+        float: left;
+        background-color: #fff;
+        
+    }
+    #Menu a {
+        background-color: #fff;
+        color: black;
+        display: block;
+        padding: 12px;
+        text-decoration: none;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-color: #E7E7E7;
+    }
+    #Menu a:hover {
+        background-color: #f7e4da;
+        box-shadow: inset 8px 0px 0px 0px rgb(247, 160, 78);
+    }
+    #Menu a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    #Menu img{
+        width: 100%;
+        height: 30vh;
+    }
+   #Menu #textLogo {
+        background-color: #FFB354;
+    }
+    #textLogo h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 30px;
+        line-height: 35px;
+        display: flex;
+        justify-content: center;
+        color: #ffff;
+    }
+    #topoMenu{
+        background-color:  #f7e4da;
+        width: 85%;
+    
+    }
+    .topoMenu p {
+        margin: 1em 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #725C5C;
+        margin-bottom: 0rem;
+    }
+    .topoMenu h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 0rem;
+        color: #725C5C;
+    }
+    .topoMenu h3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #725C5C;
+    }
+
+    #topoMenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+ 
+    }
+
+    #parteDireitaMenu img{
+        width: 5vh;
+    }
+    #parteDireitaMenu p {
+        margin-right: 5%;
+    }
+
+    #parteDireitaMenu{
+        display: flex;
+        flex-direction: row;
+        text-align: end;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #lingua{
+        width: 7em;
+        height: 2em;
+        background-color: #f7e4da;
+        margin-right: 0.5em;
+        border-radius: 4px;
+        margin-right: 5%;
+        
+    }
+
+
+    #section{
+        margin-top: 2%;
+    }
+    #Superior{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      
+    }
+    #Superior h3{
+        margin: 0 3%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+        color: #ED7839;
+        width: max-content;
+    }
+    .botoes{
+        margin-right: 5%;
+        margin-bottom: 2px;
+      
+    }
+
+    .icones img {
+        width: 3em;
+        height: 3em;
+        justify-content: space-evenly;
+    }
+    .icones {
+        display: flex;
+        flex-direction: row;
+    }
+    .icon img {
+        width: 25px;
+        height: 25px;
+    }
+    .icon {
+        width: 140px;
+        height: 35px;
+        ;
+        border-radius: 6px;
+        border: none;
+        background-color: #ED7839;
+        color: white;
+    }
+    #icon2 {
+        width: 40px;
+        height: 35px;
+        border-radius: 6px;
+        border: none;
+        background-color: #ED7839;
+        color: white;
+    }
+    #inferior{
+      display: flex;
+      flex-direction: row;
+   
+    }
+    #Layer1 {
+        width: 70%;
+        height: 75%;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        overflow: auto;
+        padding: 1em;
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 120%;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #5C5C5C;
+    }
+
+    #inferior h3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 1em;
+        letter-spacing: 0.05em;
+        color: #ED7839;
+        width: 80%;
+        float: right;
+    }
+    #inferior h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        color: #4E4E4E;
+        height: 2em;
+        width: 70%;
+        margin-bottom: 0;
+        background-color: #FDF1EB;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    }
+    #inferior iframe{
+        margin-right: 15%;
+        margin: auto 3%;
+    }
+    #resumo {
+        border-width: 1px;
+        border-bottom: grey;
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 1058px;
+        margin-left: 18%;
+        margin-top: 2%;
+        
+    }
+    #resumo h3 {
+        background-color: #f7e4da;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 10px;
+    }
+    #resumo p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        color: #5C5C5C;
+        padding: 1%;
+    }
+    .btnLeiaMais {
+        border-bottom: none;
+        color: rgb(247, 160, 78);
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        border: none;
+        background-color: white;
+    }
+    #mostrarMais {
+        display: none;
+    }
+    
+    select#lerAssunto {
+        width: 100px;
+    }
+    
+    #formulario {
+        display: none;
+    }
+
+    .discussoes {
+        border-width: 1px;
+        border-bottom: grey;
+        border: 1px solid #ECECEC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 1058px;
+        height: 32em;
+        margin-left: 18%;
+        margin-top: 2%;
+       
+    }
+    .discussoes h3 {
+        padding: 10px;
+        background-color: #f7e4da;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25px;
+        justify-content: flex-end;
+    }
+
+    .criandoTopico {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .criandoTopico h4 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #ED7839;
+    }
+    .criandoTopico p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #595959;
+    }
+    .criandoTopico button {
+        background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 4px;
+        border: none;
+        width: 8em;
+        height: 2em;
+    }
+    .rodape {
+        display: flex;
+        flex-direction: row;
+        padding: 2em;
+      
+    }
+    .logoBotao {
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape img {
+        width: 200px;
+    }
+    .rodape button {
+        width: 200px;
+        height: 25px;
+        color: white;
+        background-color: purple;
+        border-radius: 6px;
+        border-style: none;
+    }
+    .rodape p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        width: 40em;
+    }
+
+ #meuAssunto{
+    width: 60em;
+    margin-left: 4%;
+    
+       
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    #meuNome{
+        width: 60em;
+        margin-left: 4%;
+        
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    #meuConteudo{
+        width: 60em;
+        margin-left: 4%;    
+        height: 10em;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 3px;
+        
+    }
+    .textoForm{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+
+text-align: center;
+
+color: #5C5C5C;
+    }
+    
+     .titleForm{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 2%;
+        margin-left: 4%;
+        color: #ED7839;
+
+    }
+    #postagemExtra{
+        display: none;
+       
+    }
+    #postagemExtra{
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        margin-top: 5em;
+        Width :
+1028px;
+Height :
+200px;
+       
+    }
+
+    .postagem{
+
+       margin: auto 1%;
+        background: #FFFFFF;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+        margin-top: 5em;
+        Width :
+1028px;
+Height :
+200px;
+padding: 1.5%;
+
+    }
+    
+
+
+    .postagem h3{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #ED7839;
+background-color: #fff;
+    }
+    .postagem2 h3{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+color: #ED7839;
+background-color: #fff;
+    }
+    .postagem h5{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+ 
+        
+        
+        color: #5C5C5C;
+    }
+    .postagem2 h5{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+ 
+        
+        
+        color: #5C5C5C;
+    }
+    .postagem p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #4D4D4D;
+    }
+
+    .postagem2 p {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        
+        color: #4D4D4D;
+    }
+
+    #botao{
+        background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+        border-radius: 0px 0px 4px 0px;
+        border: none;
+        width: 5em;
+        margin-left: 87.5%;
+
+    }
+
+    #like{
+        width: 2.3em;
+        height: 2em;
+        background: #ED7839;
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+border-radius: 2px;
+border: none;
+    }
+    #like img{
+        width: 1em;
+        height: 1em;
+       
+    }
+
+    #demo{
+        font-family: Segoe UI;
+font-style: normal;
+font-weight: 350;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #757575;
+    }
+    .curtidas{
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #resposta{
+        border: none;
+        background-color: white;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height */
+        color: #757575;
+    }
+    .iconeVertical{
+        width: 2em;
+    }
+
+    #respostas{
+        display: none;
+    }
+    
+    #respostas div{
+        height: 60%;
+        margin-top: 5%;
+        padding: 1%;
+    
+        background: #FFFFFF;
+border: 1px solid #E7E7E7;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+    }
+  
+    #respostas p{
+        font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4D4D4D;
+    }
+
+    
+
 }

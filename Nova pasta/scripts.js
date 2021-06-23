@@ -39,7 +39,7 @@ let lerAssunto = getElementById('lerAssunto')
 
 
 function lendoAssunto() {
-        var x = document.getElementById("meuAssunto").value;
+    var x = document.getElementById("meuAssunto").value;
         document.getElementById("escreverAssunto").innerHTML = x;
 
         var x = document.getElementById("meuConteudo").value;
@@ -47,4 +47,40 @@ function lendoAssunto() {
 
         var x = document.getElementById("meuNome").value;
         document.getElementById("escreverNome").innerHTML = x;
+
+    const post  = document.getElementById('postagemExtra')
+    const botao = document.getElementById('botao')
+
+    if (post.style.display === 'none') {
+        post.style.display = 'none';
+        botao.style.display = 'inline';
+    } else {
+      
+        post.style.display = 'inline';
+
+    }
+        
       }
+
+
+      function abrirRespostas() {
+        const botao = document.getElementById('resposta')
+        const respostas = document.getElementById('respostas')
+       
+        if (respostas.style.display === 'none') {
+            respostas.style.display = 'inline';
+            botao.innerHTML = 'ver menos';
+            
+        } else {
+            respostas.style.display = 'none';
+            botao.style.display = 'inline';
+            botao.innerHTML = '4 Respostas';
+           
+        }
+ 
+    }
+   
+     
+
+
+
