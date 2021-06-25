@@ -432,17 +432,37 @@ color: #5C5C5C;
        
     }
     #postagemExtra{
-        background: #FFFFFF;
-        border: 1px solid #E7E7E7;
-        box-sizing: border-box;
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
+        margin: auto 1%;
         margin-top: 5em;
-        Width :
-1028px;
-Height :
-200px;
-       
+        Width :1028px;
+        Height :200px;
+        padding: 1.5%;
+    }
+    #postagemExtra h3{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ED7839;
+        background-color: #fff;
+    }
+
+    #postagemExtra h5{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #5C5C5C;
+    }
+    #postagemExtra p{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #4D4D4D;
     }
 
     .postagem{
@@ -454,11 +474,9 @@ Height :
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
         margin-top: 5em;
-        Width :
-1028px;
-Height :
-200px;
-padding: 1.5%;
+        Width :1028px;
+        Height :200px;
+        padding: 1.5%;
 
     }
     
@@ -466,21 +484,21 @@ padding: 1.5%;
 
     .postagem h3{
         font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-color: #ED7839;
-background-color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ED7839;
+        background-color: #fff;
     }
     .postagem2 h3{
         font-family: Quicksand;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 20px;
-color: #ED7839;
-background-color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ED7839;
+        background-color: #fff;
     }
     .postagem h5{
         font-family: Quicksand;
@@ -488,9 +506,6 @@ background-color: #fff;
         font-weight: 500;
         font-size: 12px;
         line-height: 15px;
- 
-        
-        
         color: #5C5C5C;
     }
     .postagem2 h5{
@@ -520,7 +535,6 @@ background-color: #fff;
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
-        
         color: #4D4D4D;
     }
 
@@ -537,9 +551,9 @@ background-color: #fff;
         width: 2.3em;
         height: 2em;
         background: #ED7839;
-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
-border-radius: 2px;
-border: none;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+        border-radius: 2px;
+        border: none;
     }
     #like img{
         width: 1em;
@@ -589,7 +603,7 @@ color: #757575;
         height: 60%;
         margin-top: 5%;
         padding: 1%;
-    
+        float: right;
         background: #FFFFFF;
 border: 1px solid #E7E7E7;
 box-sizing: border-box;
@@ -985,17 +999,37 @@ color: #5C5C5C;
        
     }
     #postagemExtra{
-        background: #FFFFFF;
-        border: 1px solid #E7E7E7;
-        box-sizing: border-box;
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
+        margin: auto 1%;
         margin-top: 5em;
-        Width :
-1028px;
-Height :
-200px;
-       
+        Width :1028px;
+        Height :200px;
+        padding: 1.5%;
+    }
+    #postagemExtra h3{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ED7839;
+        background-color: #fff;
+    }
+
+    #postagemExtra h5{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #5C5C5C;
+    }
+    #postagemExtra p{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #4D4D4D;
     }
 
     .postagem{
@@ -1145,7 +1179,7 @@ color: #757575;
         height: 60%;
         margin-top: 5%;
         padding: 1%;
-    
+        float: right;
         background: #FFFFFF;
 border: 1px solid #E7E7E7;
 box-sizing: border-box;
